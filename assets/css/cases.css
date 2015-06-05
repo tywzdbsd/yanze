@@ -1,0 +1,14 @@
+.cases-div {
+    display: block;
+    width: 960px;
+    height: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #07C0D8;
+}
+
+.cases-div p{
+    word-wrap: break-word;
+    line-height: 30px;
+    text-indent:2rem;
+}
