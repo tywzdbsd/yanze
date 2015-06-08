@@ -4,7 +4,8 @@
 "use strict";
 angular.module('yanzeSite', [
     'ngRoute',
-    'yanzeSite.cases'
+    'yanzeSite.cases',  //案例
+    'yanzeSite.databinding'    //test
 ])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.otherwise({redirectTo: '/index'});
