@@ -1,13 +1,12 @@
 .nav {
-    width: 100%;
     height: 50px;
     background-color: #fff;
-    box-shadow:0 4px 5px #d4d4d6;
+    box-shadow: 0 4px 5px #d4d4d6;
+    -webkit-box-shadow: 0 4px 5px #d4d4d6;
 }
 
 .nav .wrap {
     position: relative;
-    display: block;
     margin: 0 auto;
     width: 960px;
     height: 100%;
@@ -23,26 +22,23 @@
 .nav .wrap ul {
     position: absolute;
     display: inline-block;
-    bottom: 0;
     right: 0;
-    height: 100%;
 }
 
-.nav .wrap ul li{
-    right: 0;
+.nav .wrap ul li {
     display: inline-block;
-    padding: 16px 10px;
+    padding: 0 14px 0 10px;
+    line-height: 50px;
     background: url("../images/line.gif") no-repeat right center;
 }
 
-.nav .wrap ul li:hover{
+.nav .wrap ul li:hover {
     cursor: pointer;
-    color:#07C0D8;
+    color: #07C0D8;
     border-bottom: 3px solid #07C0D8;
 }
 
-
-.nav .wrap ul .end-li{
-    background:none;
+.nav .wrap ul .end-li {
+    background: none;
 }
 
