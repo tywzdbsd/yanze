@@ -10,7 +10,7 @@ angular.module('yanzeSite.cases', ['ngRoute'])
         })
     }])
 
-    .controller('casescontroller', ['$scope', function ($scope) {
+    .controller('casescontroller', ['$scope','$rootScope', function ($scope,$rootScope) {
         $scope.var = "socoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocool";
         $scope.sync = "socoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocoolsocool";
     }]);

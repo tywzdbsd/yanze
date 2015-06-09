@@ -3,8 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>岩泽网络</title>
-    <link rel="stylesheet" href="./assets/css/nav.css"/>
     <link rel="stylesheet" href="./assets/css/main.css"/>
+    <link rel="stylesheet" href="./assets/css/nav.css"/>
+    <link rel="stylesheet" href="./assets/css/index.css"/>
+    <link rel="stylesheet" href="./assets/css/br-fullpage.min.css"/>
     <link rel="stylesheet" href="./assets/css/cases.css"/>
 </head>
 <body>
@@ -12,8 +14,8 @@
     <div class="wrap">
         <img src="./assets/images/logo.png" alt="月球出差中~"/>
         <ul class="nav-bar">
-            <li>首页</li>
-            <li>团队</li>
+            <li ng-click="tiaozhuan()">首页</li>
+            <li >团队</li>
             <li>业界</li>
             <li>纳贤</li>
             <li class="end-li">联系</li>
@@ -24,11 +26,17 @@
 </div>
 </body>
 </html>
+<script src="./assets/js/jquery-1.7.2.min.js"></script>
+<script src="./assets/js/jquery.easing.1.3.js"></script>
+<script src="./assets/js/jquery.scrollify.min.js"></script>
+<!--angularjs-->
 <script src="./assets/js/angular/angular.min.js"></script>
 <script src="./assets/js/angular-route/angular-route.min.js"></script>
 
-<script src="module/common.js"></script>
+<!--route-->
+<script src="module/index/index.js"></script>
 <script src="module/cases/cases.js"></script>
+<script src="module/common.js"></script>
 <!--test-->
-<script src="module/test/databinding.js"></script>       
+<script src="module/test/databinding.js"></script>
 

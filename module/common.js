@@ -4,13 +4,17 @@
 "use strict";
 angular.module('yanzeSite', [
     'ngRoute',
+    'br.fullpage',
     'yanzeSite.cases',  //案例
-    'yanzeSite.databinding'    //test
+    'yanzeSite.databinding',    //test
+    'yanzeSite.index'   //首页滑动部分
 ])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.otherwise({redirectTo: '/index'});
     }])
 
-    .run(['$rootScope', function ($rootScope) {
-
+    .run(['$rootScope', '$location', function ($rootScope, $location) {
+        $rootScope.tiaozhuan = function () {
+            $location.path('/databinding');
+        }
     }]);

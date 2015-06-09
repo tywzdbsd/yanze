@@ -1,0 +1,26 @@
+/*内容*/
+.page .container {
+    margin:60px auto;
+    width:960px;
+    height:100%;
+}
+
+.page .container .index-page-1{
+    background-color: #63dd24;
+}
+
+.page .container .index-page-2{
+    background-color: #2EBE21;
+}
+
+.page .container .index-page-3{
+    background-color: #2C3E50;
+}
+
+.page .container .index-page-4{
+    background-color: #FF9900;
+}
+
+.page .container .index-page-5{
+    background-color: #63dd24;
+}
