@@ -10,11 +10,14 @@ angular.module('yanzeSite.index', ['ngRoute'])
         })
     }])
 
-    .controller('indexcontroller', ['$scope', '$rootScope', function ($scope, $rootScope) {
-        $(function() {
-            $('.panel').css({'height': $(window).height()});
-            $.scrollify({
-                section: '.panel'
-            });
-        });
+    .controller('indexcontroller', ['$scope', '$rootScope',function ($scope, $rootScope) {
+        var mySwiper = new Swiper ('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay : 3000,
+            // 如果需要前进后退按钮
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev'
+        })
+
     }]);

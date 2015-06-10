@@ -3,36 +3,51 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>岩泽网络</title>
-    <link rel="stylesheet" href="./assets/css/main.css"/>
-    <link rel="stylesheet" href="./assets/css/nav.css"/>
-    <link rel="stylesheet" href="./assets/css/index.css"/>
-    <link rel="stylesheet" href="./assets/css/br-fullpage.min.css"/>
-    <link rel="stylesheet" href="./assets/css/cases.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/swiper3.07.min.css">
 </head>
 <body>
 <header class="nav">
     <div class="wrap">
         <img src="./assets/images/logo.png" alt="月球出差中~"/>
         <ul class="nav-bar">
-            <li ng-click="tiaozhuan()">首页</li>
-            <li >团队</li>
-            <li>业界</li>
-            <li>纳贤</li>
-            <li class="end-li">联系</li>
+            <li ng-click="goIndex()">首页</li>
+            <li>解决方案</li>
+            <li>招贤纳才</li>
+            <li>关于我们</li>
+            <li class="end-li">联系方式</li>
         </ul>
     </div>
 </header>
-<div class="content" ng-view>
+
+<div class="view-class" ng-view>
 </div>
+
+<footer class="footer">
+    <div class="wrap">
+        <div style="background-color: #07C0D8;">
+            <ul class="solution">
+                <li class="start-li">解决方案</li>
+                <li>案例</li>
+                <li>开发平台</li>
+                <li>设计流程</li>
+                <li>技术实力</li>
+                <li>Q&A</li>
+            </ul>
+        </div>
+        <div style="background-color: #007aff;">招贤纳才</div>
+        <div style="background-color: #90ffb6;">关于我们</div>
+        <div style="background-color: #ffaa57;">联系方式</div>
+    </div>
+</footer>
 </body>
 </html>
-<script src="./assets/js/jquery-1.7.2.min.js"></script>
-<script src="./assets/js/jquery.easing.1.3.js"></script>
-<script src="./assets/js/jquery.scrollify.min.js"></script>
+<script src="assets/js/jquery-1.7.2.min.js"></script>
 <!--angularjs-->
-<script src="./assets/js/angular/angular.min.js"></script>
-<script src="./assets/js/angular-route/angular-route.min.js"></script>
-
+<script src="assets/js/angular/angular.min.js"></script>
+<script src="assets/js/angular-route/angular-route.min.js"></script>
+<!--swiper-->
+<script src="assets/js/swiper3.07.min.js"></script>
 <!--route-->
 <script src="module/index/index.js"></script>
 <script src="module/cases/cases.js"></script>

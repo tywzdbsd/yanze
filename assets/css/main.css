@@ -7,7 +7,167 @@ ul {
     list-style: none;
 }
 
-.content{
-    width:100%;
-    height:100%;
+html, body {
+    width: 100%;
+    height: 100%;
 }
+
+/*nav*/
+.nav {
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 2;*/
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.nav .wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.nav .wrap img {
+    cursor: pointer;
+    display: inline-block;
+    height: 100%;
+}
+
+.nav .wrap ul {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+.nav .wrap ul li {
+    display: inline-block;
+    padding: 0 14px 0 10px;
+    font-size: 18px;
+    line-height: 80px;
+    background: url("../images/line.gif") no-repeat right center;
+}
+
+.nav .wrap ul li:hover {
+    cursor: pointer;
+    color: #07C0D8;
+}
+
+.nav .wrap ul .end-li {
+    background: none;
+}
+
+/*index-content*/
+.view-class {
+    width: 100%;
+}
+
+/*.swiper-container */
+.swiper-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+}
+
+.swiper-slide-1 {
+    background: url("../images/bg-1.jpg") center no-repeat;
+    image-rendering: optimizeQuality;
+}
+
+.swiper-slide-2 {
+    background: url("../images/bg-1.jpg") center no-repeat;
+    image-rendering: optimizeQuality;
+}
+
+.swiper-slide-3 {
+    background: url("../images/bg-1.jpg") center no-repeat;
+    image-rendering: optimizeQuality;
+}
+
+/*index-cases*/
+.index-cases {
+    width: 100%;
+    background: #90ffb6;
+}
+
+.index-cases div {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    padding:10px;
+}
+
+.index-cases .index-cases-left {
+    background-color: #e30d44;
+}
+
+.index-cases .index-cases-right {
+    background-color: #7071ff;
+}
+
+/*cases*/
+.cases-div {
+    display: block;
+    width: 960px;
+    height: 500px;
+    margin-top: 10px;
+    background-color: #07C0D8;
+}
+
+.cases-div p {
+    word-wrap: break-word;
+    line-height: 30px;
+    text-indent: 2rem;
+    overflow: hidden;
+}
+
+.cases-div p:before {
+    content: open-quote;
+
+}
+
+.cases-div p:after {
+    content: close-quote;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    background: rgba(63, 114, 155, 1);
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.footer .wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.footer .wrap div {
+    float: left;
+    width: 25%;
+}
+
+.footer .wrap div .solution {
+    display: inline-block;
+}
+
+.footer .wrap .bar {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .wrap .bar .menu {
+    display: inline-block;
+    width: 24%;
+    font-size: 18px;
+    line-height: 80px;
+}
+
